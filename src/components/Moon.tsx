@@ -21,12 +21,12 @@ interface GLTFResult {
   };
 }
 
-const MODEL_PATH = "src/components/moon/scene.gltf";
+const modelPath = `${import.meta.env.VITE_BASE_URL}/models/moon/scene.gltf`;
 
 export default function Model() {
   const groupRef = useRef<Group>(null);
 
-  const { nodes, materials } = useGLTF(MODEL_PATH) as unknown as GLTFResult;
+  const { nodes, materials } = useGLTF(modelPath) as unknown as GLTFResult;
 
   useFrame(() => {
     if (groupRef.current) {
@@ -50,4 +50,4 @@ export default function Model() {
   );
 }
 
-useGLTF.preload(MODEL_PATH);
+useGLTF.preload(modelPath);

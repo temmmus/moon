@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
-import Moon from "./components/moon/Moon.tsx";
+import Moon from "./components/Moon.tsx";
 import "./App.css";
 
 function App() {
