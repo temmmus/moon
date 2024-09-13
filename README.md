@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd moon
    ```
 3. Install the dependencies:
    ```bash
@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 - **[Three.js](https://threejs.org/)**: A JavaScript library that simplifies the creation and rendering of 3D graphics in the browser, enabling the development of complex 3D scenes and animations.
 - **[TypeScript](https://www.typescriptlang.org/)**: A superset of JavaScript that adds static types.
 - **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**: Markup language for structuring web pages.
-- **[CSS](https://www.w3.org/Style/CSS/)**: : Stylesheet language for styling web pages.
+- **[CSS](https://www.w3.org/Style/CSS/)**: Stylesheet language for styling web pages.
 - **[Vite](https://vitejs.dev/)**: A build tool and development server that provides fast hot module replacement.
 
 ## Acknowledgements
